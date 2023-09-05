@@ -8,8 +8,8 @@ function About() {
             <h1>this is about</h1>
             <Navbar />
             <Hero
-                cName="hero"
-                heroimg={AboutImg} // Pass the imported image, not a string
+                cName="hero-mid"      // Removed the dot before hero-mid
+                heroimg={AboutImg} 
                 title="your journey your story"
                 text="create your destination"
                 buttontext="travel"
