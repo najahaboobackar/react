@@ -15,7 +15,5 @@ icon:"fa-solid fa-briefcase"},
 url:"/contact",cName:"nav-links",
 icon:"fa-solid fa-address-book"},
 
-{ title: "sign up",
-url:"/signup",cName:"nav-links",
-}
+
 ]

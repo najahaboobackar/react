@@ -1,0 +1,63 @@
+.hero{
+    width: 100vh;
+    height: 100%;
+    position: relative;
+  
+}
+img {
+    position: fixed;     /* Fixes the image to a specific position */
+    top: 0;
+    left: 0;
+    width: 100%;         /* Makes the image take the full width of the viewport */
+    height: 100%;        /* Makes the image take the full height of the viewport */
+    z-index: -1;         /* Ensure the image is behind other content */
+    object-fit: cover;
+
+}
+.hero-text{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centers the element both horizontally and vertically */
+    width: 100%;
+    text-align: center; 
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+}
+.hero-text p {
+    font-size: 1.2;
+    padding: 5px 0.3rem 1.2rem 2px;
+    color: white;
+}
+.hero-text .show{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.31rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    margin-top: 10px;
+}
+@media screen and (max-width:555px)
+{
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem;
+    }
+    .hero-text .show{
+        font-size: 1.1rem;
+        border-radius: 6px;
+        padding: 1rem 2rem;
+
+    }
+}
