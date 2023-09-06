@@ -4,8 +4,8 @@ import "./HeroStyle.css";
 function Hero(props){
     return(
         <>
-        <div className={props.cName}>
-            <img alt="herpimg" src={props.heroimg}/>
+        <div className={props.cname}>
+        <img alt="herpimg"  src={props.heroimg}/>
 <div className="hero-text">
     <h1>{props.title}</h1>
     <p>{props.text}</p>
