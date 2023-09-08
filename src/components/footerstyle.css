@@ -1,0 +1,63 @@
+.footer {
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.top i {
+    font-size: 2rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.top i:hover {
+    color: purple;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: start;
+    padding: 0 1rem; /* Optional: Gives spacing between columns */
+}
+
+.bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: white;
+    padding: .4rem 0; /* Adjusted padding to give space between links */
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:850px) {
+    .footer {
+        padding: 1rem 3rem;
+    }
+
+    .bottom div {
+        width: 50%;
+    }
+
+    .footer i {
+        margin: 1rem 1rem 0 0;
+    }
+}
