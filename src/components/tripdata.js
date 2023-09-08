@@ -4,7 +4,7 @@ function TripData(props)
     return (
         <div className="t-card">
             <div className="t-image">
-                <img src={props.image1} alt=" "/>
+            <img src={props.image1} alt="Recent Trip Image" />
             </div>
             <h4>{props.heading}</h4>
             <p>{props.text}</p>
