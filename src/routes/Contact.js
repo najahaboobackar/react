@@ -2,6 +2,8 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/Hero";
 import AboutImg from '../assets/travel4.jpg';
+import Footer from "../components/footer";
+import ContactF from "../components/contactform";
 
 function Contact() {
     return (
@@ -19,6 +21,8 @@ function Contact() {
                 url="/"               
                 btnClass="hide"       
             />
+            <ContactF/>
+            <Footer/>
         </>
     );
 }

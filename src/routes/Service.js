@@ -2,6 +2,8 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/Hero";
 import AboutImg from '../assets/travel4.jpg';
+import Footer from "../components/footer";
+import Trip from "../components/trip";
 
 function Service() {
     return (
@@ -19,6 +21,8 @@ function Service() {
                 url="/"               
                 btnClass="hide"       
             />
+            <Trip/>
+            <Footer/>
         </>
     );
 }

@@ -2,6 +2,8 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/Hero";
 import AboutImg from '../assets/travel3.jfif';
+import Footer from "../components/footer";
+import Aboutus from "../components/Aboutus";
 
 function About() {
     return (
@@ -19,6 +21,8 @@ function About() {
                 url="/"               
                 btnClass="hide"       
             />
+            <Aboutus/>
+            <Footer/>
         </>
     );
 }
